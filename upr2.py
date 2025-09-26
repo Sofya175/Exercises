@@ -12,7 +12,7 @@ cold_counter= 0
 
 for i in range(12):
     temp_air = int(input('введите температуру воздуха '))
-    
+
     if temp_air < 10:
         cold_counter += 1
     elif 10 <= temp_air <= 21:
